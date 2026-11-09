@@ -1,0 +1,50 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.container > .cup {
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 0px 100px 100px;
+    border: 2px solid black;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.container > .cup > span {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.container > .cup-source-selected{
+    border-color: green;
+    border-style: dashed;
+    border-width: 3px;
+}
+
+.container > .object-1{
+    background-color: aquamarine;
+}
+
+.container > .object-2{
+    background-color: skyblue;
+}
