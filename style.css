@@ -30,11 +30,6 @@ html,body{
     cursor: pointer;
 }
 
-.container > .cup > span {
-    font-weight: 600;
-    font-size: 2rem;
-}
-
 .container > .cup-source-selected{
     border-color: green;
     border-style: dashed;
